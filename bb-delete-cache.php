@@ -126,6 +126,7 @@ class BB_Delete_Cache_Admin_Bar {
 				// Clear all cache
 				case 'all':
 					FLBuilderModel::delete_asset_cache_for_all_posts();
+					do_action( 'fl_builder_cache_cleared' );
 					break;
 
 				// Clear a current post
