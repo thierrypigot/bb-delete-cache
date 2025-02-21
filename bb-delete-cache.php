@@ -71,7 +71,7 @@ class BB_Delete_Cache_Admin_Bar {
 	function add_sub_menu( $id, $parent, $title, $href, $meta = FALSE) {
 		global $wp_admin_bar;
 		
-		if ( ! is_super_admin() || ! is_admin_bar_showing() )
+		if ( ! is_super_admin() || ! is_admin_bar_showing() || ! class_exists( 'FLBuilderModel' ) )
 			return;
 
 		$wp_admin_bar->add_menu( array(
@@ -146,13 +146,4 @@ class BB_Delete_Cache_Admin_Bar {
 	
 }
 
-
-add_action( "init", "BB_Delete_Cache_Admin_Bar_init" );
-function BB_Delete_Cache_Admin_Bar_init() {
-	global $BB_Delete_Cache_Admin_Bar_init;
-	
-	if( class_exists('FLBuilder') ) {
-		$BB_Delete_Cache_Admin_Bar_init = new BB_Delete_Cache_Admin_Bar();
-	}
-	
-}
+new BB_Delete_Cache_Admin_Bar();
