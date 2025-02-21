@@ -1,11 +1,11 @@
 === BB Delete cache ===
-Contributors: thierrypigot, wearewp
+Contributors: thierrypigot, wearewp, pross
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=paypal%40thierry%2dpigot%2efr&lc=FR&item_name=Thierry%20Pigot&item_number=BB%20delete%20cache&no_note=0&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest
 Tags: Beaver Builder, clear, cache, admin bar
-Requires at least: 4.7
-Tested up to: 5.3.2
-Stable tag: 1.0.3
-Version: 1.0.3
+Requires at least: 6.0
+Tested up to: 6.7.2
+Stable tag: 1.0.4
+Version: 1.0.4
 Text Domain: bb-delete-cache
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -26,6 +26,9 @@ With BB delete cache, you have now a button in the admin bar to clear Beaver Bui
 1. The admin bar menu
 
 == Changelog ==
+
+= 1.0.4 =
+* updates-and-fixes
 
 = 1.0.3 =
 * fix contributors

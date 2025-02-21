@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: BB delete cache
-Plugin URI: http://www.wearewp.pro
+Plugin URI: https://www.wearewp.pro
 Description: Add delete beaver builder cache button in admin bar
-Contributors: wearewp, thierrypigot
-Author: WeAreWP
-Author URI: http://www.wearewp.pro
+Contributors: wearewp, thierrypigot, pross
+Author: WeAre[WP]
+Author URI: https://www.wearewp.pro
 Text Domain: bb-delete-cache
 Domain Path: /languages/
-Version: 1.0.3
-Stable tag: 1.0.3
+Version: 1.0.4
+Stable tag: 1.0.4
 */
 
 class BB_Delete_Cache_Admin_Bar {
