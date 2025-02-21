@@ -22,7 +22,7 @@ class BB_Delete_Cache_Admin_Bar {
 	}
 
 	public function load_textdomain() {
-		load_plugin_textdomain( 'bb-delete-cache', false, basename( __DIR__ ) . '/languages' );
+		load_plugin_textdomain( 'bb-delete-cache', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 	}
 
 	/**
